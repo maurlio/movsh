@@ -25,7 +25,7 @@ export function parseArgs() {
     const selectedType = args[typeIndex + 1];
 
     if (!VALID_TYPES[selectedType]) {
-        console.error('Erro: O tipo ""' + selectedType + '" é inválido.');
+        console.error('Erro: O tipo "' + selectedType + '" é inválido.');
         console.log('Tipos válidos: em-cartaz, populares, bem-avaliados, futuros');
         process.exit(1);
     }
